@@ -1,5 +1,6 @@
 class java_day2cw {
-public static void main(String[] args) {
+public static void main(String[] args) 
+    {
     int books=3;
     int price=275;
     int total_amount=books*price;
@@ -11,5 +12,4 @@ public static void main(String[] args) {
     System.out.println("Discount: "+discount_value);
     System.out.println("Net Amount: "+net_amount);
     }
-
 }
