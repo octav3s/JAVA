@@ -1,4 +1,4 @@
-public class store_manager{
+class store_manager{
     public static void main(String[] args) {
         int[][] sales ={
             {100, 200, 150},
@@ -7,7 +7,7 @@ public class store_manager{
             {160, 180, 210},
             {190, 200, 250}
         };
-        int totalSales = new int[3];
+        int[] totalSales = new int[3];
         for(int i=0; i<sales.length; i++){
             for(int j=0; j<sales[i].length; j++){
                 totalSales[j] += sales[i][j];
