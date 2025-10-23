@@ -6,7 +6,7 @@ class GradeReport {
         for (int i = 0; i < marks.length; i++) {
             if (marks[i] < 35) {
                 System.out.println("Result: Fail (Scored below 35 in subject " + (i + 1) + ")");
-                break;
+                return;
             }
             total += marks[i];
         }
