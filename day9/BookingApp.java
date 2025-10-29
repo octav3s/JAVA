@@ -17,6 +17,7 @@ class Autoride extends Ride{
     }
 
     @Override
+    
     void rideType() {
         System.out.println("Auto ride.");
     }
