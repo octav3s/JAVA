@@ -32,5 +32,12 @@ try{
     catch(Exception e){
         e.printStackTrace();
     }
+    boolean deleted = file.delete();
+    if(deleted){
+        System.out.println("File deleted successfully");
+    } 
+    else {
+        System.out.println("Failed to delete the file.");
+    }
    }
 }
