@@ -30,6 +30,7 @@ import java.util.Scanner;
             System.out.println("3. Withdraw Money");
             System.out.println("4. Exit");
             System.out.print("Choose an option: ");
+
             option = scanner.nextInt();
 
             switch (option) {
