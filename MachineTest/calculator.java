@@ -2,7 +2,7 @@ package MachineTest;
 
 import java.util.Scanner;
 
-class caclulations {
+class calculations {
 
     public double add(double x, double y) {
         return x + y;
@@ -30,7 +30,7 @@ public class calculator {
     {
         Scanner C = new Scanner(System.in);
 
-        caclulations calc = new caclulations();
+        calculations calc = new calculations();
 
         System.out.print("Enter first number: ");
         double N1 = C.nextDouble();
